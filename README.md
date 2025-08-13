@@ -37,6 +37,7 @@
 
 1) подключаемся по SSH
 2) Создаем папку для скрипта и копируем скрипт
+    ```bash
     mkdir /tmp/script
     cd /tmp/script
     wget https://github.com/EjenTek/Alisa-sensor/blob/main/sensor.py
