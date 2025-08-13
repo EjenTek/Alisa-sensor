@@ -22,7 +22,7 @@
 3) Открываем скрипт и подставляем значения своего Токена и Device ID
     nano /tmp/script/sensor.py
 4) делаем скрипт исполняемым
-    chmod +x /tmp/script/sensor.py
+    chmod ugo+x /tmp/script/sensor.py
 5) Создаем расписание для пороса датчика каждые 10 минут
     crontab -e
     добавляем строку */10 * * * * /tmp/script/sensor.py
