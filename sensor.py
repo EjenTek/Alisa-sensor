@@ -2,8 +2,8 @@
 
 import requests
 
-url = "https://api.iot.yandex.net/v1.0/devices/" #Заменить ID своего датчика
-token = 'Ваш токен'
+url = "https://api.iot.yandex.net/v1.0/devices/xxxxxxxxxxxxxxxxxxxxxxxxxxxx" #Замените на ID своего датчика
+token = 'xxxxxxxxxxxxxxxxxxxxxxxxx' # Замените на свой токен
 
 headers= {"Authorization" : f"Bearer {token}", "Content-Type": "application/json"}
 
